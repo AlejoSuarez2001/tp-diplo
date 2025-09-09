@@ -61,6 +61,7 @@ const InformationItem = ({ direction, right, left, backgroundColor, textColor, i
                             left={{ base: "none", md: left }}
                             marginTop={{ base: "-55px", md: "0" }}
                             src={img}
+                            alt="Imagen"
                             maxWidth={{ md: "275px", xl: "350px" }}
                             borderRadius="md"
                             objectFit="cover"

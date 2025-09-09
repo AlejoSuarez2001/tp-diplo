@@ -61,6 +61,7 @@ export default function NavBar() {
         >
           <Link to="">
             <img
+              alt="Logo"
               onClick={onClose}
               src="/assets/Logo.svg"
               style={{ cursor: "pointer", height: "45px" }}
